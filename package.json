@@ -1,0 +1,29 @@
+{
+  "name": "agency",
+  "version": "1.0.0",
+  "description": "landing page",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.css -o css/style.prefix.css",
+    "compress:css": "node-sass css/style.prefix.css css/style.css --output-style compressed",
+    "build:css": "npm-run-all compile:sass prefix:css compress:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinatahoun92/Agency.git"
+  },
+  "author": "Dina Tahoun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dinatahoun92/Agency/issues"
+  },
+  "homepage": "https://github.com/dinatahoun92/Agency#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0",
+    "postcss-cli": "^6.1.2"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.5.1"
+  }
+}
