@@ -286,7 +286,7 @@ header {
 .aboutUs {
   margin-top: -20vh;
   text-align: center;
-  padding-bottom: 245px;
+  padding-bottom: 170px;
   margin-bottom: -175px; }
   .aboutUs h2 {
     padding-top: 26vh; }
@@ -314,7 +314,7 @@ header {
   .ourWork h2 {
     text-align: center;
     padding-top: 177px;
-    margin-top: 20px;
+    margin-top: 40px;
     display: block;
     margin-bottom: -23px; }
   .ourWork .work {
