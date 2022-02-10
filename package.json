@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/dinatahoun92/Agency#readme",
   "devDependencies": {
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "postcss-cli": "^6.1.2"
   },
   "dependencies": {
